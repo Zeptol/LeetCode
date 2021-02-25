@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.quests;
 
 /**
  * 103. 二叉树的锯齿形层序遍历
