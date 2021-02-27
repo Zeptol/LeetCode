@@ -16,7 +16,6 @@ public class Q867 {
         int n = matrix[0].length;
         var transposed = new int[n][m];
         for (int i = 0; i < n; i++) {
-            transposed[i] = new int[m];
             for (int j = 0; j < m; j++) {
                 transposed[i][j] = matrix[j][i];
             }
