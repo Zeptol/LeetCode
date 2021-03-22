@@ -32,7 +32,9 @@ class MyQueue {
      * Push element x to the back of queue.
      */
     public void push(int x) {
-        stackIn.push(x);
+        while (!stackOut.isEmpty()) stackIn.push(stackOut.pop());
+        stackOut.push(x);
+        while (!stackIn.isEmpty()) stackOut.push(stackIn.pop());
     }
 
     /**

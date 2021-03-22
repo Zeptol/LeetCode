@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Main {
 
-    int a = 1;
+    static int a = 0b11111111111111111111111111111101;
 
     public static void main(String[] args) throws IOException {
         //sendVerificationCode();
@@ -16,6 +16,7 @@ public class Main {
             int a = 1;
             int b = 1;
         }
+        System.out.println("a = " + a);
         //Runtime.getRuntime().exec("shutdown -s -t 3600");
         outer:
         for (var i = 0; i < 10; i++) {
