@@ -27,7 +27,7 @@ interface NestedInteger {
     List<NestedInteger> getList();
 }
 
-public class NestedIterator implements Iterator<Integer> {
+class NestedIterator implements Iterator<Integer> {
 
     public NestedIterator(List<NestedInteger> nestedList) {
 
